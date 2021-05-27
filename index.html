@@ -137,17 +137,27 @@
         <form action="https://echo.htmlacademy.ru" method="post">
         <p>
           <label for="date">Дата заезда</label>
-          <input name="date" type="date" id="date">
+          <input name="date" type="number" id="date">
         </p>
         <p>
           <label for="date">Дата выезда</label>
-          <input name="date" type="date" id="date">
+          <input name="date" type="number" id="date">
         </p>
+        
           <label for="date">Взрослые</label>
-          <input name="adults" type="datetime" id="datetime">
+          <div>
+            <button type="button">-</button>
+            <input name="adults" type="number" id="datetime">
+            <button type="button">+</button>
+          </div>
+          
           <label for="date">Дети</label>
-          <input name="adults" type="datetime" id="datetime">
-          <button type="submit">Найти</button>
+          <div>
+            <button type="button">-</button>
+            <input name="adults" type="number" id="datetime">
+            <button type="button">+</button>
+          </div>
+          <button type="submit">Найти</button>    
         </form>
 
     </section>
