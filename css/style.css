@@ -176,7 +176,8 @@ ul {
 
 
 .welcome-img {
-  background: url("../img/background\ photo.jpg");
+  background: url("../img/backgroundPhoto.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-clip-path: polygon(0 450px, 250px 475px, 250px 450px, 600px 509px, 950px 450px, 950px 475px, 1200px 450px, 1200px 0px, 0px 0px);
