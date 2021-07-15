@@ -95,8 +95,6 @@ ul {
   justify-content: space-between;
   padding-left: 72px;
   padding-right: 72px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 .site-nav {
@@ -119,20 +117,12 @@ ul {
   padding: 15px 0;
 }
 
-.nav-list1 li:first-child {
-  padding-left: 72px;
-}
-
 .nav-list1 li:last-child {
   padding-left: 134px;
 }
 
 .nav-list2 li:first-child {
   padding-right: 147px;
-}
-
-.nav-list2 li:last-child {
-  padding-right: 72px;
 }
 
 .site-nav li a {
@@ -177,7 +167,7 @@ ul {
 
 .welcome-img {
   background: url("../img/backgroundPhoto.jpg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-clip-path: polygon(0 450px, 250px 475px, 250px 450px, 600px 509px, 950px 450px, 950px 475px, 1200px 450px, 1200px 0px, 0px 0px);
@@ -262,6 +252,7 @@ ul {
 .advantages-list {
   display: flex;
   justify-content: center;
+  height: 256px;
 }
 
 .advantages-list_img1 li:last-child {
@@ -523,15 +514,15 @@ ul {
 }
 
 .twitter::before {
-  content: url("../icons/Group\ 3.svg");
+  content: url("../icons/twitter.svg");
 }
 
 .facebook::before {
-  content: url("../icons/Group\ 4.svg");
+  content: url("../icons/facebook.svg");
 }
 
 .youtube::before {
-  content: url("../icons/Group\ 5.svg");
+  content: url("../icons/youtube.svg");
 }
 
 .socials ul {
@@ -559,7 +550,7 @@ ul {
   margin: 0 auto;
   background-color: white;
   position: absolute;
-  top: 2169px;
+  top: 2199px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -631,11 +622,12 @@ ul {
 
 .number-of-visiters input {
   background-color: var(--basic-light);
-  width: 33px;
+  width: 35px;
   height: 36px;
   text-align: center;
   font-weight: 700;
   outline: none;
+  margin: 0 -1px;
 }
 
 .poppup button {
@@ -773,6 +765,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background-image: url("../img/background.jpg");
   background-color: #7395b8;
   color: var(--basic-white);
+  background-size: contain;
 }
 
 .form-block3 {
@@ -824,6 +817,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   height: 32px;
   margin-bottom: 20px;
   margin-top: 5px;
+  position: relative;
 }
 
 .cost-min-max input {
@@ -838,7 +832,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background: var(--basic-white);
   display: block;
   position: absolute;
-  top: 121px;
+  top: 5px;
 }
 
 .cost-min-max input::-webkit-input-placeholder {
@@ -1097,7 +1091,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .star-rating::before {
-  content: url(../img/decor/Star-rating.svg);
+  content: url(../icons/Star-rating.svg);
   width: 19px;
   height: 19px;
 }
